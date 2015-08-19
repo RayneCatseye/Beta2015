@@ -1,0 +1,98 @@
+\documentclass{article}
+
+\usepackage{cwpuzzle}
+
+\begin{document}
+\section*{Puzzles}
+
+\subsection*{Crossword:}
+
+\begin{Puzzle}{15}{15} %
+|*    |*    |*    |*    |*    |*    |[1]L |*    |*    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |A    |*    |*    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |[2]N |A    |M    |E    |[3]S |E    |R    |V    |E    |R    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |P    |*    |T    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |*    |*    |A    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |[4]S |W    |I    |T    |C    |H    |I    |N    |G    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |*    |*    |D    |*    |*    |*    |*    |[5]F |*    |[6]C |.
+|*    |*    |*    |[7]L |O    |A    |[8]D |B    |A    |L    |A    |N    |C    |I    |N    |G    |.
+|*    |*    |*    |*    |*    |*    |D    |*    |R    |*    |*    |*    |*    |R    |*    |I    |.
+|*    |[9]T |H    |E    |C    |L    |O    |U    |D    |*    |*    |*    |*    |E    |*    |B    |.
+|*    |*    |*    |*    |*    |*    |S    |*    |Q    |*    |*    |*    |*    |W    |*    |I    |.
+|*    |*    |*    |*    |*    |*    |*    |*    |U    |*    |*    |*    |*    |A    |*    |N    |.
+|*    |*    |*    |[10]A|P    |A    |C    |H    |E    |*    |*    |*    |*    |L    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |*    |*    |R    |*    |*    |*    |*    |L    |*    |*    |.
+|[11]S|O    |C    |K    |E    |T    |L    |A    |Y    |E    |R    |*    |*    |*    |*    |*    |.
+\end{Puzzle}
+
+
+\begin{PuzzleClues}{\textbf{Across}} %
+\Clue{2}{NAMESERVER}{Translator of domain names and IPs} %
+\Clue{4}{SWITCHING}{packet \_\_\_\_\_\_: How the internet moves data} %
+\Clue{7}{LOADBALANCING}{Distributing data to avoid server overload} %
+\Clue{9}{THECLOUD}{Not in the sky, but still fluffy} %
+\Clue{10}{APACHE}{Native American webserver} %
+\Clue{11}{SOCKETLAYER}{} %
+\end{PuzzleClues} %
+%
+\begin{PuzzleClues}{\textbf{Down}}
+\Clue{1}{LAMP}{Illuminating software stack used to run websites} %
+\Clue{3}{STANDARDQUERY}{\_\_\_\_\_\_ language, SQL for short} %
+\Clue{5}{FIREWALL}{Not literally a wall on fire} %
+\Clue{6}{CGIBIN}{Where the cgi scripts live} %
+\Clue{8}{DDOS}{Service denied} %
+\end{PuzzleClues}
+
+\subsection*{Takuzu:}
+The goal of this problem is to fill the grid with 1 and 0. 
+Rules:
+\begin{description}
+\item[1.] There have to be the same number of 1 and 0 in each line.
+\item[2.] No more than two cells in a row can contain the same digit.
+\item[3.] Each row and each column have to be unique.
+\end{description}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 1 & 1 &   &   & 0 &   &   & 1 &   &   \\ 
+\hline 1 &   & 1 &   &   &   & 0 &   &   & 1 \\ 
+\hline   &   &   &   & 0 &   & 0 &   &   & 1 \\ 
+\hline   & 0 &   & 1 &   & 1 &   &   &   &   \\ 
+\hline   & 0 & 0 &   &   &   & 0 &   &   &   \\ 
+\hline   &   &   &   &   &   &   & 0 &   &   \\ 
+\hline 0 &   &   & 1 &   & 1 & 1 &   & 0 &   \\ 
+\hline   &   & 0 &   &   &   & 1 &   &   &   \\ 
+\hline 0 &   & 0 &   &   &   &   & 1 &   &   \\ 
+\hline   & 1 &   &   & 1 &   & 1 &   &   & 0 \\
+\hline
+\end{tabular}
+\end{table} 
+
+Answer:
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 1 & 1 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & 0 \\ 
+\hline 1 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 0 & 1 \\ 
+\hline 0 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 \\ 
+\hline 1 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 1 & 0 \\ 
+\hline 1 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 0 & 1 \\ 
+\hline 0 & 1 & 1 & 0 & 1 & 1 & 0 & 0 & 1 & 0 \\ 
+\hline 0 & 0 & 1 & 1 & 0 & 1 & 1 & 0 & 0 & 1 \\ 
+\hline 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & 1 \\ 
+\hline 0 & 1 & 0 & 0 & 1 & 1 & 0 & 1 & 1 & 0 \\ 
+\hline 0 & 1 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
+\hline
+\end{tabular}
+\end{table} 
+
+
+\subsection*{Brain teasers:}
+\begin{description}
+\item[A.] How would you convert a string to a single integer? % Iterate  through  the  string from end to beginning, keeping  a  running  total,  starting at 0. Also keep track of an int x, indicating current digit (x starts as 1) For each character, add the current digit multiplied by x, then multiply x by 10. At the beginning, if the total is negative then return the inverse, else return the number itself.
+
+\item[B.] The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17. Find the sum of all the primes below two million. (This problem taken from Project Euler, go check them out at http://projecteuler.net) % First step is to check each number for primality, then to sum them. Checking for primality is an interesting problem in itself if you don't want to brute force it!
+
+\end{description}
+\end{document}

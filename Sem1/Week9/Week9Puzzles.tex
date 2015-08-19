@@ -1,0 +1,111 @@
+\documentclass{article}
+
+\usepackage{cwpuzzle}
+
+\begin{document}
+\section*{Puzzles}
+
+\subsection*{Crossword:}
+
+\begin{Puzzle}{18}{18} %
+|*    |*    |*    |*    |*    |*    |*    |*    |[1]C |*    |*    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |[2]K |*    |*    |*    |*    |*    |R    |*    |[3]C |*    |*    |*    |*    |*    |*    |*    |.
+|[4]F |R    |E    |Q    |U    |E    |N    |C    |Y    |*    |A    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |R    |*    |*    |*    |*    |*    |P    |*    |E    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |C    |*    |*    |*    |*    |*    |T    |*    |S    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |K    |*    |*    |*    |*    |*    |A    |*    |A    |*    |*    |*    |*    |*    |*    |[5]C |.
+|*    |*    |H    |*    |[6]V |I    |G    |E    |N    |E    |R    |E    |C    |I    |P    |H    |E    |R    |.
+|*    |*    |O    |*    |*    |*    |*    |*    |A    |*    |C    |*    |*    |*    |*    |*    |*    |Y    |.
+|*    |*    |F    |*    |[7]C |*    |*    |[8]P |L    |A    |I    |N    |T    |E    |X    |T    |*    |P    |.
+|*    |*    |F    |*    |O    |*    |*    |*    |Y    |*    |P    |*    |*    |*    |*    |*    |*    |T    |.
+|*    |*    |*    |*    |L    |*    |*    |*    |S    |*    |H    |*    |[9]l |*    |*    |*    |*    |O    |.
+|*    |*    |*    |*    |[10]O|N    |[11]E|T    |I    |M    |E    |P    |A    |D    |*    |*    |*    |G    |.
+|*    |*    |*    |*    |S    |*    |N    |*    |S    |*    |R    |*    |N    |*    |*    |*    |*    |R    |.
+|*    |*    |*    |*    |S    |*    |T    |*    |*    |*    |*    |*    |D    |*    |*    |[12]K|*    |A    |.
+|*    |*    |*    |*    |U    |*    |R    |*    |*    |*    |[13]S|H    |A    |O    |N    |E    |*    |P    |.
+|*    |*    |*    |*    |S    |*    |O    |*    |*    |*    |*    |*    |U    |*    |*    |Y    |*    |H    |.
+|*    |*    |*    |*    |*    |*    |P    |*    |[14]C|I    |P    |H    |E    |R    |*    |*    |*    |Y    |.
+|*    |*    |*    |*    |*    |*    |Y    |*    |*    |*    |*    |*    |R    |*    |*    |*    |*    |*    |.
+\end{Puzzle}
+
+
+\begin{PuzzleClues}{\textbf{Across}} %
+\Clue{4}{FREQUENCY}{How often letters occur} %
+\Clue{6}{VIGNERECIPHER}{Multiples of [caesarciphers], in a row.} %
+\Clue{8}{PLAINTEXT}{Pre-encrypted text, much less exciting} %
+\Clue{10}{ONETIMEPAD}{Unbreakable if things are really random} %
+\Clue{13}{SHAONE}{160-bit hash function} %
+\Clue{14}{CIPHER}{Replaces one with another} %
+\end{PuzzleClues} %
+%
+\begin{PuzzleClues}{\textbf{Down}}
+\Clue{1}{CRYPTANALYSIS}{Deciphering codes (not necessarily perl)} %
+\Clue{2}{KERCKHOFF}{Key, not algorithm, secrecy} %
+\Clue{3}{CAESARCIPHER}{rot13}
+\Clue{5}{CRYPTOGRAPHY}{Hidden writing, but in Greek} %
+\Clue{7}{COLOSSUS}{Cracked the Lorenz cipher} %
+\Clue{9}{LANDAUER}{128-bit theoretical limit, but people} %
+\Clue{11}{ENTROPY}{Shannon measure of coding efficiency} %
+\Clue{12}{KEY}{Public and private} %
+\end{PuzzleClues}
+
+\subsection*{Takuzu:}
+The goal of this problem is to fill the grid with 1 and 0. 
+Rules:
+\begin{description}
+\item[1.] There have to be the same number of 1 and 0 in each line.
+\item[2.] No more than two cells in a row can contain the same digit.
+\item[3.] Each row and each column have to be unique.
+\end{description}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 1 &   &   & 0 &   & 1 & 0 &   & 0 &   \\ 
+\hline   &   &   &   &   &   &   & 1 &   &   \\ 
+\hline   & 0 &   & 1 &   &   &   &   &   &   \\ 
+\hline   &   &   &   &   & 1 &   &   & 0 &   \\ 
+\hline 1 &   & 0 &   &   &   & 0 &   &   &   \\ 
+\hline   &   &   &   & 1 &   &   &   &   & 1 \\ 
+\hline   & 1 &   &   &   & 1 &   &   & 1 &   \\ 
+\hline 0 & 1 &   &   & 0 &   & 1 &   &   & 1 \\ 
+\hline   &   &   & 0 &   &   &   &   & 1 & 1 \\ 
+\hline 0 &   &   & 0 &   & 0 &   &   & 0 &   \\
+\hline
+\end{tabular}
+\end{table} 
+
+Answer:
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 1 & 0 & 1 & 0 & 0 & 1 & 0 & 1 & 0 & 1 \\ 
+\hline 0 & 1 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 0 \\ 
+\hline 1 & 0 & 0 & 1 & 1 & 0 & 1 & 0 & 1 & 0 \\ 
+\hline 0 & 1 & 1 & 0 & 0 & 1 & 1 & 0 & 0 & 1 \\ 
+\hline 1 & 0 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 0 \\ 
+\hline 1 & 0 & 0 & 1 & 1 & 0 & 1 & 0 & 0 & 1 \\ 
+\hline 0 & 1 & 1 & 0 & 1 & 1 & 0 & 0 & 1 & 0 \\ 
+\hline 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & 1 \\ 
+\hline 1 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 \\ 
+\hline 0 & 1 & 1 & 0 & 1 & 0 & 1 & 1 & 0 & 0 \\
+\hline
+\end{tabular}
+\end{table} 
+
+
+\subsection*{Brain teasers:}
+\begin{description}
+\item[A.] Guvf vf gur bayl Pnrfne Pvcure gung vf vgf bja vairefr. Juvpu bar vf vg? 
+%[ROT13]
+
+\item[B.] Most books have an ISBN number. e.g.  the ISBN number of “Applied Cryptography” is 0471117099 .  Let's multiply these digits by the numbers ten to one:  10*0+9*4+8*7+7*1+6*1+5*1+4*7+3*0+2*9+1*9 = 165 = 15*11.  As you can see, the sum is divisible by 11. In fact, this property holds true for all ISBNs.  
+The number  0100000001 cannot be an ISBN. If we know that one digit is wrong, how many possible ISBNs could it have originally been? 
+%[9: 0600000001, 0170000001, 0108000001, 0100200001, 0100090001,  0100003001, 0100000401, 0100000061, or 0100000002]
+
+\item[C.] In this puzzle, each letter stands for unique digit that makes the arithmetic equation true. What are the values of the letters in: SEVEN + SEVEN + SIX = TWENTY
+%[68782 + 68782 + 650 = 138214]
+
+
+\end{description}
+\end{document}

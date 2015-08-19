@@ -1,0 +1,101 @@
+\documentclass{article}
+
+\usepackage{cwpuzzle}
+
+\begin{document}
+\section*{Puzzles}
+
+\subsection*{Crossword:}
+
+\begin{Puzzle}{16}{16} %
+|*    |*    |[1]S |O    |U    |R    |[2]C |E    |*    |*    |*    |[3]S |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |A    |*    |*    |*    |*    |I    |*    |*    |*    |*    |.
+|*    |[4]H |A    |M    |I    |L    |T    |O    |N    |[5]I |A    |N    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |E    |*    |*    |S    |*    |K    |*    |*    |*    |*    |.
+|[6]B |*    |*    |*    |*    |*    |R    |*    |*    |O    |*    |*    |*    |*    |*    |*    |.
+|R    |*    |*    |[7]C |O    |M    |P    |L    |E    |M    |E    |N    |T    |*    |*    |*    |.
+|I    |*    |*    |*    |*    |*    |I    |*    |*    |O    |*    |*    |*    |*    |*    |*    |.
+|D    |*    |*    |*    |*    |*    |L    |*    |*    |R    |*    |*    |*    |*    |*    |*    |.
+|G    |*    |*    |[8]D |*    |*    |L    |*    |*    |P    |*    |*    |*    |*    |*    |*    |.
+|[9]E |U    |L    |E    |R    |I    |A    |N    |*    |H    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |G    |*    |*    |R    |*    |*    |I    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |R    |*    |*    |*    |*    |[10]A|C    |Y    |C    |[11]L|I    |C    |*    |.
+|[12]F|O    |R    |E    |S    |[13]T|*    |*    |*    |*    |*    |*    |O    |*    |*    |*    |.
+|*    |*    |*    |E    |*    |R    |*    |*    |*    |*    |*    |*    |O    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |E    |*    |*    |*    |*    |*    |*    |P    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |E    |*    |*    |*    |*    |*    |*    |*    |*    |*    |*    |.
+\end{Puzzle}
+
+
+\begin{PuzzleClues}{\textbf{Across}} %
+\Clue{1}{SOURCE}{All out, no in} %
+\Clue{4}{HAMILTONIAN}{Loop that uses all vertices exactly once} %
+\Clue{7}{COMPLIMENT}{Same nodes, different edges} %
+\Clue{9}{EULERIAN}{All edges used exactly once} %
+\Clue{10}{ACYCLIC}{Cycleless} %
+\Clue{12}{FOREST}{A collection of \#13} %
+\end{PuzzleClues} %
+%
+\begin{PuzzleClues}{\textbf{Down}}
+\Clue{2}{CATERPILLAR}{Tree where all nodes form a single path} %
+\Clue{3}{SINK}{All in, no out} %
+\Clue{5}{ISOMORPHIC}{Same product, different packaging} %
+\Clue{6}{BRIDGE}{Removing this disconnects the graph} %
+\Clue{8}{DEGREE}{Number of edges on a node} %
+\Clue{11}{LOOP}{Back to where you started} %
+\Clue{13}{TREE}{Acyclic, simple graph.} %
+\end{PuzzleClues}
+
+\subsection*{Takuzu:}
+The goal of this problem is to fill the grid with 1 and 0. 
+Rules:
+\begin{description}
+\item[1.] There have to be the same number of 1 and 0 in each line.
+\item[2.] No more than two cells in a row can contain the same digit.
+\item[3.] Each row and each column have to be unique.
+\end{description}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 1 &   &   & 0 &   & 1 & 0 &   & 0 &   \\ 
+\hline   &   &   &   &   &   &   & 1 &   &   \\ 
+\hline   & 0 &   & 1 &   &   &   &   &   &   \\ 
+\hline   &   &   &   &   & 1 &   &   & 0 &   \\ 
+\hline 1 &   & 0 &   &   &   & 0 &   &   &   \\ 
+\hline   &   &   &   & 1 &   &   &   &   & 1 \\ 
+\hline   & 1 &   &   &   & 1 &   &   & 1 &   \\ 
+\hline 0 & 1 &   &   & 0 &   & 1 &   &   & 1 \\ 
+\hline   &   &   & 0 &   &   &   &   & 1 & 1 \\ 
+\hline 0 &   &   & 0 &   & 0 &   &   & 0 &   \\
+\hline
+\end{tabular}
+\end{table} 
+
+Answer:
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 1 & 0 & 1 & 0 & 0 & 1 & 0 & 1 & 0 & 1 \\ 
+\hline 0 & 1 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 0 \\ 
+\hline 1 & 0 & 0 & 1 & 1 & 0 & 1 & 0 & 1 & 0 \\ 
+\hline 0 & 1 & 1 & 0 & 0 & 1 & 1 & 0 & 0 & 1 \\ 
+\hline 1 & 0 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 0 \\ 
+\hline 1 & 0 & 0 & 1 & 1 & 0 & 1 & 0 & 0 & 1 \\ 
+\hline 0 & 1 & 1 & 0 & 1 & 1 & 0 & 0 & 1 & 0 \\ 
+\hline 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 & 0 & 1 \\ 
+\hline 1 & 0 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 \\ 
+\hline 0 & 1 & 1 & 0 & 1 & 0 & 1 & 1 & 0 & 0 \\
+\hline
+\end{tabular}
+\end{table} 
+
+
+\subsection*{Brain teasers:}
+\begin{description}
+\item[A.] Prove that $\sqrt{2 + \sqrt{2}} + \sqrt{2 - \sqrt{2}} < 2\sqrt{2}$
+
+\item[B.] Find a Hamiltonian Circuit in the following image: %insert image here. TODO: remember to link them
+
+\end{description}
+\end{document}

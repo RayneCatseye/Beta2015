@@ -1,0 +1,99 @@
+\documentclass{article}
+
+\usepackage{cwpuzzle}
+
+\begin{document}
+\section*{Puzzles}
+
+\subsection*{Crossword:}
+
+\begin{Puzzle}{15}{15} %
+|*    |*    |*    |[1]A |L    |I    |A    |[2]S |*    |*    |*    |*    |*    |*    |*    |.
+|[3]C |*    |*    |*    |*    |*    |*    |T    |*    |*    |*    |[4]C |*    |*    |*    |.
+|M    |*    |*    |*    |*    |*    |*    |E    |*    |[5]P |*    |H    |*    |*    |*    |.
+|[6]A |S    |[7]C |I    |I    |Q    |U    |A    |R    |I    |U    |M    |*    |*    |*    |.
+|T    |*    |O    |*    |*    |*    |*    |M    |*    |P    |*    |O    |*    |[8]R |*    |.
+|R    |*    |W    |*    |*    |*    |*    |L    |*    |E    |*    |D    |*    |S    |*    |.
+|I    |*    |S    |*    |*    |*    |*    |O    |*    |*    |*    |*    |*    |Y    |*    |.
+|X    |*    |A    |*    |*    |*    |[9]S |C    |R    |I    |P    |T    |I    |N    |G    |.
+|*    |*    |Y    |*    |*    |*    |*    |O    |*    |*    |*    |*    |*    |C    |*    |.
+|*    |*    |*    |*    |*    |*    |*    |M    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |[10]P|Y    |T    |H    |O    |N    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |*    |T    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |[11]P|I    |N    |G    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |*    |V    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |[12]G|R    |E    |P    |*    |*    |*    |*    |*    |*    |.
+\end{Puzzle}
+
+
+\begin{PuzzleClues}{\textbf{Across}} %
+\Clue{1}{ALIAS}{Type one thing, mean another} %
+\Clue{6}{ASCIIQUARIUM}{Make fish to watch you while you work} %
+\Clue{9}{SCRIPTING}{How one automates on the commandline} %
+\Clue{10}{PYTHON}{Common scripting language} %
+\Clue{11}{PING}{Sonar for the web} %
+\Clue{12}{GREP}{Type a string, get a line} %
+\end{PuzzleClues} %
+%
+\begin{PuzzleClues}{\textbf{Down}}
+\Clue{2}{STEAMLOCOMOTIVE}{sl} %
+\Clue{3}{CMATRIX}{The matrix right there in your terminal} %
+\Clue{4}{CHMOD}{Changes permissions}
+\Clue{5}{PIPE}{Carrying data, not water} %
+\Clue{7}{COWSAY}{Cows with strings} %
+\Clue{8}{RSYNC}{Data sync (not sink)} %
+\end{PuzzleClues}
+
+\subsection*{Takuzu:}
+The goal of this problem is to fill the grid with 1 and 0. 
+Rules:
+\begin{description}
+\item[1.] There have to be the same number of 1 and 0 in each line.
+\item[2.] No more than two cells in a row can contain the same digit.
+\item[3.] Each row and each column have to be unique.
+\end{description}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline   &   &   & 0 &   &   & 1 &   &   & 0 \\ 
+\hline   & 1 & 1 &   &   &   &   & 0 &   &   \\ 
+\hline   &   & 1 &   &   &   & 1 &   &   &   \\ 
+\hline   &   &   &   &   &   &   &   & 1 & 1 \\ 
+\hline   &   &   &   & 0 &   & 1 &   &   &   \\ 
+\hline   &   &   &   &   & 0 &   &   & 0 &   \\ 
+\hline   &   &   &   & 0 &   &   &   &   &   \\ 
+\hline   &   & 1 & 1 &   &   & 0 & 1 &   & 1 \\ 
+\hline 1 &   & 1 &   &   &   & 0 &   &   & 0 \\ 
+\hline   &   &   &   &   &   &   &   &   &   \\
+\hline
+\end{tabular}
+\end{table} 
+
+Answer:
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 1 & 1 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 0 \\ 
+\hline 0 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 \\ 
+\hline 1 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 0 & 0 \\ 
+\hline 0 & 1 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\ 
+\hline 1 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 1 & 0 \\ 
+\hline 1 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 0 & 1 \\ 
+\hline 0 & 1 & 0 & 1 & 0 & 1 & 1 & 0 & 1 & 0 \\ 
+\hline 0 & 0 & 1 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\ 
+\hline 1 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 & 0 \\ 
+\hline 0 & 1 & 0 & 1 & 1 & 0 & 1 & 0 & 0 & 1 \\
+\hline
+\end{tabular}
+\end{table} 
+
+
+\subsection*{Brain teasers:}
+\begin{description}
+\item[A.] How would you determine if a given binary tree is valid or not? % Recursive is the way to go with this; remember that left is always smaller than the parent, and right is larger.
+
+\item[B.] Break some C programming mishaps (and get some commandline skills) with a wargame: http://overthewire.org/wargames/manpage/
+
+\end{description}
+\end{document}

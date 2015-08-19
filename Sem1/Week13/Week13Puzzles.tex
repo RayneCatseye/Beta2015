@@ -1,0 +1,108 @@
+\documentclass{article}
+
+\usepackage{cwpuzzle}
+
+\begin{document}
+\section*{Puzzles}
+
+\subsection*{Crossword:}
+
+\begin{Puzzle}{15}{16} %
+|*    |*    |*    |*    |*    |*    |*    |[1]N |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |[2]P |*    |A    |*    |[3]C |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |U    |*    |G    |*    |H    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |[4]U |P    |T    |I    |M    |E    |*    |*    |[5]V |*    |*    |.
+|*    |*    |[6]W |*    |*    |P    |*    |O    |*    |F    |*    |*    |I    |*    |[7]V |.
+|*    |[8]T |I    |C    |K    |E    |T    |S    |*    |*    |*    |*    |R    |*    |M    |.
+|*    |*    |R    |*    |*    |T    |*    |*    |*    |*    |*    |*    |T    |*    |W    |.
+|*    |*    |E    |*    |*    |*    |*    |*    |*    |[9]B |A    |C    |U    |L    |A    |.
+|*    |*    |[10]S|C    |A    |L    |I    |N    |G    |*    |*    |*    |A    |*    |R    |.
+|*    |*    |H    |*    |*    |*    |*    |*    |*    |*    |*    |*    |L    |*    |E    |.
+|*    |*    |A    |*    |[11]P|*    |*    |*    |*    |*    |*    |*    |B    |*    |*    |.
+|[12]V|E    |R    |S    |I    |O    |[13]N|C    |O    |N    |T    |R    |O    |L    |*    |.
+|*    |*    |K    |*    |N    |*    |G    |*    |*    |*    |*    |*    |X    |*    |*    |.
+|*    |*    |*    |*    |G    |*    |I    |*    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |N    |*    |*    |*    |*    |*    |*    |*    |*    |.
+|*    |*    |*    |*    |*    |*    |X    |*    |*    |*    |*    |*    |*    |*    |*    |.
+\end{Puzzle}
+
+
+\begin{PuzzleClues}{\textbf{Across}} %
+\Clue{4}{UPTIME}{Measure of stability that will haunt your waking hours} %
+\Clue{8}{TICKETS}{Less exciting now they're not to concerts} %
+\Clue{9}{BACULA}{Backups with a side of fish} %
+\Clue{10}{SCALING}{Ability to handle growth} %
+\Clue{12}{VERSIONCONTROL}{Git is used for this} %
+\end{PuzzleClues} %
+%
+\begin{PuzzleClues}{\textbf{Down}}
+\Clue{1}{NAGIOS}{“\_\_\_\_\_\_ Ain't Gonna Insist On Sainthood"} %
+\Clue{2}{PUPPET}{Automation, with you pulling the strings} %
+\Clue{3}{CHEF}{Like {2}, with more food involved}
+\Clue{5}{VIRTUALBOX}{Virtual machine, first released in 2007} %
+\Clue{6}{WIRESHARK}{Network analyser in the form of an aquatic predator} %
+\Clue{7}{VMWARE}{{3} with a pricetag} %
+\Clue{11}{PING}{Lag, outside gaming} %
+\Clue{13}{NGINX}{Proxy server, engine in disguise} %
+\end{PuzzleClues}
+
+\subsection*{Takuzu:}
+The goal of this problem is to fill the grid with 1 and 0. 
+Rules:
+\begin{description}
+\item[1.] There have to be the same number of 1 and 0 in each line.
+\item[2.] No more than two cells in a row can contain the same digit.
+\item[3.] Each row and each column have to be unique.
+\end{description}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline   & 1 &   &   &   & 1 &   &   & 1 &   \\ 
+\hline   &   &   & 0 &   &   &   &   &   &   \\ 
+\hline   & 1 &   & 0 & 0 &   &   &   &   & 1 \\ 
+\hline   &   &   &   &   &   &   & 0 &   & 1 \\ 
+\hline   &   &   &   &   &   &   &   &   &   \\ 
+\hline   &   &   & 1 &   &   &   &   & 1 &   \\ 
+\hline   &   &   & 1 & 1 &   &   &   & 1 &   \\ 
+\hline   &   & 0 &   &   &   &   & 0 &   &   \\ 
+\hline   & 1 &   &   &   &   &   &   &   &   \\ 
+\hline 1 &   &   &   &   & 1 &   & 0 &   & 0 \\
+\hline
+\end{tabular}
+\end{table} 
+
+Answer:
+\begin{table}[ht]
+\centering
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 0 \\ 
+\hline 1 & 0 & 1 & 0 & 1 & 0 & 1 & 1 & 0 & 0 \\ 
+\hline 0 & 1 & 1 & 0 & 0 & 1 & 0 & 0 & 1 & 1 \\ 
+\hline 1 & 0 & 0 & 1 & 1 & 0 & 1 & 0 & 0 & 1 \\ 
+\hline 0 & 1 & 1 & 0 & 1 & 0 & 1 & 1 & 0 & 0 \\ 
+\hline 0 & 0 & 1 & 1 & 0 & 1 & 0 & 0 & 1 & 1 \\ 
+\hline 1 & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 & 0 \\ 
+\hline 1 & 1 & 0 & 0 & 1 & 0 & 1 & 0 & 0 & 1 \\ 
+\hline 0 & 1 & 1 & 0 & 0 & 1 & 0 & 1 & 0 & 1 \\ 
+\hline 1 & 0 & 0 & 1 & 0 & 1 & 1 & 0 & 1 & 0 \\
+\hline
+\end{tabular}
+\end{table} 
+
+
+\subsection*{Brain teasers:}
+\begin{description}
+\item[A.] Can we assume without loss of generality that a computer program has access to its own source code? 
+%[Yes; for example, quines must have access to their own source codes to print them!]
+
+\item[B.] A downstairs panel contains three on-off switches. One of them controls the electricity for the basement, in which there are several lights and your server racks, the other two are duds (you really need to get them fixed). Using only one trip to the basement, how do you determine which switch controls the electricity? 
+%[Turn the first one on and wait a few minutes, then turn it off and turn the second one on. Go down. If the light bulbs are hot but off, it was the first one, if they're on, its the second, and if they're neither its the third. Alternatively, if your servers are set up correctly then you should be notified when they come online and shouldn't need to go down at all.]
+
+
+\item[Bonus] Q: What's tiny and yellow and very, very, dangerous?
+
+A: A canary with the super-user password.
+
+\end{description}
+\end{document}
